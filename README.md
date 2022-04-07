@@ -2,16 +2,16 @@
 
 ## Problem statement
 
-Let's take photos, efficiently! 
-Imagine you're on a boat and there are other boats around you that you are interested in capturing an image of. The goal is to capture each boat at least once with the least number of images.
-So...
+Let's take photos, efficiently! <br />
+Imagine you're on a boat and there are other boats around you that you are interested in capturing an image of. The goal is to capture each boat at least once with the least number of images. <br />
+So... <br />
 Given you own location - camera location, the camera field of view, and the other boats location represented in [x, y] coordinate, output the **least** number of captures and their **respective angle** with respect to you.
 
 ### Example
 Given:
-    Camera location: `[0, 0]`
-    Camera FOV: `80` degree
-    5 boats location: `[ [3, 2], [4, -1], [-1, 4], [-1, 2], [-4, 1] ]`
+- Camera location: `[0, 0]`
+- Camera FOV: `80` degree
+- 5 boats location: `[ [3, 2], [4, -1], [-1, 4], [-1, 2], [-4, 1] ]`
 
 The inefficient way is to take 5 phots, one per each boat and we don't want that.
 An efficient way is to only take 2 photos, 
